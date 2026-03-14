@@ -1,0 +1,202 @@
+document_id,user_email,document_title,workspace_name,document_created,summary,notes
+5fd63d11-29b3-4e23-8a17-fbf2b8520153,naiduvr@lambdatest.com,Gong x LambdaTest Finance Review,Lambdatest.com,2025-12-08T14:29:17.848Z,"### Gong Product Overview & Pricing Structure
+
+- Revenue AI operating system combining humans, agents, and tools for revenue optimization
+- Three core layers:
+  - Data layer: Customer conversations (Zoom, email, Teams) + CRM + ecosystem context
+  - Intelligence layer: Built on OpenAI, Anthropic, Gemini LLMs
+  - Automation layer: Ask anything functionality, conversation insights
+- Key capabilities:
+  - Tracks deal health signals (e.g., pricing discussions timing vs typical sales cycle)
+  - AI trackers for positioning analysis across customer interactions
+  - Coaching at scale using conversation data
+
+### Proposed Package & Aggressive Pricing
+
+- 110 total seats with role-specific SKU allocation:
+  - 50 foundation licenses (AEs/AMs): $1,360/year (from $1,600)
+  - 60 BDR foundation licenses: $400/year (special approval)
+  - 110 Enable Essentials (coaching): $100/year (from $300)
+  - 50 Forecast seats (AEs/AMs): $620/year (from $800)
+  - 60 Gong Engage (BDR dialer/sequencing): $300/year (from $800)
+- Platform access fee waived ($10K annually)
+- Implementation: $8K (from $20K standard)
+- Total pricing:
+  - Year 1: $160K (vs $327K list price)
+  - Year 2: $152K (vs $307K list price)
+- Contract terms: 2-year agreement, December 12th signature deadline
+- Pricing confidentiality required (significantly below market rates)
+
+### Finance Review & Next Steps
+
+- Vikas (Finance Controller) evaluation criteria:
+  - ROI analysis beyond cost considerations
+  - Manpower savings assessment
+  - Multi-year value projection
+  - Budget allocation within board parameters
+- Historical Salesforce data available for forecast backfilling
+- Deliverables for review: pricing deck, ROI calculator with pilot data (22 slides)
+- Decision timeline: Vikas to respond by end of day tomorrow
+- Follow-up meeting scheduled for same time tomorrow
+
+---
+
+Chat with meeting transcript: https://notes.granola.ai/t/fadae37f-34fb-4641-a2cc-ecc8c763910e",
+c53bea70-7c4c-4eb8-b542-ef88473820db,naiduvr@lambdatest.com,GTM Buddy Progress,Lambdatest.com,2025-12-19T10:12:40.440Z,"### GTM Buddy Content Strategy
+
+- Keyword research and vocabulary development underway
+  - Manual testing synonyms: real-time testing, live testing, exploratory testing, non-automated, functional testing
+  - Product-specific keyword mapping in progress
+  - Focus on two-way synonyms vs one-way alternatives
+  - AWS example: Amazon Web Services, cloud services (synonyms vs Microsoft Azure as alternative)
+- Discovery questions framework
+  - Product-wise discovery questions being mapped
+  - Content prioritization matrix for case studies
+  - Column C structure needs clarification for search display priority
+- Content audit requirements
+  1. Review all existing videos for relevance
+  2. Check alignment with current product strategy
+  3. Remove stale/duplicate content
+  4. Update naming conventions and tagging
+
+### LMS and Sales Portal Development
+
+- Homepage layout feedback provided to development team
+  - Call scheduled at 1 PM for implementation discussion
+  - Skeleton structure to be ready by 4:30 PM today
+  - Full implementation expected within 2 days
+- Learning module structure finalized
+  1. Week 1: Product knowledge, competitive analysis, ICP, company vision
+  2. Week 2: Product-wise segmentation and ordering
+  - Storytelling and narration approach emphasized over document dumps
+  - Module numbering system (1, 2, 3, 4) for clear progression
+- Content migration from CMS to LMS
+  - MP4 video uploads in progress
+  - Archive outdated materials
+  - Maintain content creator attribution
+
+### Next Steps and Timeline
+
+- Monday demo preparation
+  - CMS audit completion
+  - Content management and tagging review
+  - Sales portal folder structure finalization
+- Integration planning
+  - Multiple integrations scheduled for next week
+  - Demo sessions with stakeholders confirmed
+- Team coordination
+  - Office party today 4:30 PM (Hard Cup Cafe/Over the Moon)
+  - Work resumption Monday morning
+  - Target launch: January 4th for sales kickoff
+- Action item: Satisha to provide LMS walkthrough to Afsal and Amit for admin access understanding
+
+---
+
+Chat with meeting transcript: https://notes.granola.ai/t/8fc9a5da-f673-421e-b894-34cb74251a14",
+5749c281-7f61-4ce9-8a7a-740a7afebf17,naiduvr@lambdatest.com,Account Hierarchy Discussion,Lambdatest.com,2025-12-02T10:02:24.384Z,"### Salesforce Account Hierarchy & Revenue Cloud Implementation
+
+-   Current vs future structure discussion
+    -   Need to migrate from current setup to Revenue Cloud model
+    -   Custom objects vs standard Salesforce structure considerations
+    -   Parent-child account relationships for enterprise clients
+-   Revenue Cloud implementation approach
+    -   Assets and subscriptions management through Revenue Cloud
+    -   Lead conversion process: Lead → Account → Opportunity → Quote → Contract → Order
+    -   Smart approvals workflow for contract negotiations
+    -   Integration with existing payment systems (Stripe)
+
+### Account Management & Data Migration
+
+-   Account hierarchy setup
+    -   Parent account structure for large enterprises (e.g., United Health Group subsidiaries)
+    -   Automated account creation controls to prevent duplicates
+    -   Manual validation process for new account creation
+-   Data migration requirements
+    -   Move paid customer data to new structure
+    -   Lead import and conversion process
+    -   Contact role mapping and relationship management
+    -   Preserve existing account team assignments
+
+### LinkedIn Sales Navigator Integration
+
+-   CRM enrichment capabilities
+    -   Automatic company-level data synchronization
+    -   Employee size and company information updates
+    -   Decision maker identification and relationship mapping
+-   Account matching and duplicate prevention
+    -   Automatic company matching by name/domain
+    -   Duplicate detection and merge suggestions
+    -   Enhanced prospecting through LinkedIn data
+
+### Implementation Planning
+
+-   Sandbox environment setup for testing
+-   Demo preparation for stakeholder review
+-   Migration timeline and bullet point planning needed
+-   Architecture team consultation required for technical implementation
+
+---
+
+Chat with meeting transcript: https://notes.granola.ai/t/4565bd0a-5921-4566-91fc-f5e543238c19",
+b26e9c83-714e-4250-9af7-c9d632de12a4,naiduvr@lambdatest.com,GTM Buddy,Lambdatest.com,2025-12-02T11:36:11.271Z,"### Implementation Strategy & Timeline
+
+- Sales kickoff scheduled for January 6th - hard deadline
+  - Need tool ready to showcase AE/AM onboarding workflow to sales team
+  - Currently only have BDR setup; need AE content for expensive resources
+- AE/AM team are priority resources vs BDR team
+  - J wants to see actual tool implementation, not just documentation
+  - Team created detailed onboarding plan but needs GTM Buddy implementation
+- Concern: Amit and Abzel sitting idle during pricing negotiations
+  - Want to decouple implementation from contract signing
+  - Risk of missing January kickoff if delayed further
+
+### User Count & Module Updates
+
+- Updated user count from 100 to 120 users
+  - Includes AEs, AMs, SDRs, BDRs across all teams
+- Role play credits discussion:
+  - Move from 500 credit limit to user-based unlimited access
+  - Easier tracking and administration
+  - Christian needs leadership approval for pricing impact
+
+### Pricing Negotiations
+
+- Target budget: $30K (allocated amount)
+  - Current quote: $35K needs approval discussions
+  - Christian mentions already significant discount applied
+- CFO involvement required:
+  1. Naidu traveling to Delhi Thursday for CFO meeting
+  2. Need detailed pricing breakdown before discussion
+  3. List price, discount details, no hidden costs confirmation
+- Contract signing timeline:
+  - Must sign in December (Christian's fiscal year-end)
+  - Payment can occur in January budget cycle
+
+### Contract Structure Discussion
+
+- MSA vs Order Form separation request:
+  - Naidu wants MSA signed first, order form later
+  - Christian unsure if possible, needs team consultation
+- Opt-out clause included in current proposal
+  - Standard language for pilot implementations
+  - Provides protection during evaluation period
+- No additional hidden costs confirmed
+  - Ask Buddy: unlimited questions/requests
+  - All modules included in quoted price
+
+### Next Steps
+
+- Christian:
+  - Get approval for 120 users with unlimited role play access
+  - Provide detailed pricing breakdown with list price/discount details
+  - Create PowerPoint deck with module overview and pricing
+  - Investigate MSA/order form separation possibility
+- Naidu:
+  - Present complete package to CFO Thursday/Friday in Delhi
+  - Coordinate with J on AE implementation requirements
+  - Target December contract signing with January payment
+- Follow-up via Slack/WhatsApp as Christian travels to US Wednesday
+
+---
+
+Chat with meeting transcript: https://notes.granola.ai/t/d0703f21-ef39-4222-b467-f2c65e0f39f0",
