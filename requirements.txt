@@ -1,1 +1,6 @@
+# Notion integration
 notion-client==2.2.1
+
+# Slack bot
+slack-bolt==1.18.0
+slack-sdk==3.23.0
