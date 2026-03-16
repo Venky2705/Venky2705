@@ -8,17 +8,56 @@ This repository contains two tools:
 
 ## 🤖 Neo - Personal Slack Assistant
 
-Neo is your personal Slack assistant that responds to @neo mentions, /neo commands, and direct messages.
+**Multiple Setup Options Available!**
 
-### Features
+Choose the approach that fits your needs:
+- **Option A (Full Bot)** - Complete standalone bot with full features
+- **Option B (Keyword Integration)** - Integration with existing Claude bot
+- **Option C (Simple Alias)** - ⭐ **RECOMMENDED** - Quickest setup, no bot registration needed!
 
-- **@neo mentions** - Mention @neo in any channel to get help
-- **/neo command** - Quick slash command access
-- **Direct messages** - DM Neo for private assistance
+Neo provides quick access to Claude (`<@U0A2TRBH7T6>`) for personal assistance tasks.
+
+### Available Features
+
+- **Quick access to Claude** - Use `@neo` instead of `<@U0A2TRBH7T6>`
+- **Workflow shortcuts** - ⚡ Lightning menu shortcuts
 - **Morning briefs** - Get daily briefings
 - **Weekly reviews** - Weekly summaries and insights
+- **Custom commands** - Extensible command system
 
-### Setup Neo Bot
+---
+
+## 📋 Setup Options
+
+### ⭐ Option C: Simple Alias (RECOMMENDED - 5 minutes)
+
+**Best for:** Quick setup, no coding required, uses existing Claude bot
+
+This is the **easiest and fastest** method. No Slack app registration needed!
+
+**[📖 See detailed setup guide: NEO_ALIAS_SETUP.md](NEO_ALIAS_SETUP.md)**
+
+**Quick Start:**
+1. Open Slack → Workspace menu → **Tools** → **Workflow Builder**
+2. Create → **Shortcut** → Name: "Ask Neo"
+3. Add step → **Send a message** → Text: `<@U0A2TRBH7T6> {{user_input}}`
+4. Publish!
+
+**Usage:**
+- Click ⚡ lightning bolt → "Ask Neo" → Type your question
+- Or use the keyword forwarder script: `python neo_alias.py`
+
+---
+
+### 🤖 Option A: Full Neo Bot (Advanced - 20 minutes)
+
+**Best for:** Complete control, standalone bot, advanced features
+
+This creates a fully independent Neo bot with its own identity.
+
+**Note:** This requires Slack app registration and running a bot server. For simpler setup, see Option C above.
+
+**Setup Steps:**
 
 **1. Create the Slack App:**
 
@@ -80,16 +119,43 @@ You should see: `🚀 Starting Neo Slack Bot...`
 ### Using Neo
 
 **Available Commands:**
-- `@neo morning brief` - Get your morning briefing
-- `@neo weekly review` - Weekly summary
-- `@neo help` - Show available commands
+- Morning brief - `@neo morning brief` or `⚡ Ask Neo → "morning brief"`
+- Weekly review - `@neo weekly review`
+- Help - `@neo help`
 
 **Examples:**
+
+*Option C (Workflow):*
+- Click ⚡ → "Ask Neo" → type "morning brief"
+
+*Option C (Forwarder):*
+```
+neo morning brief
+@neo weekly review
+```
+
+*Option A (Full Bot):*
 ```
 @neo morning brief
 /neo weekly review
 DM: help
 ```
+
+---
+
+## 🔍 Which Option Should I Choose?
+
+| Feature | Option C (Alias) | Option A (Full Bot) |
+|---------|-----------------|---------------------|
+| Setup Time | 5 minutes | 20 minutes |
+| Requires Coding | No (workflow) / Minimal (script) | Yes |
+| App Registration | No | Yes |
+| Server Required | No (workflow) / Yes (script) | Yes |
+| Works Immediately | ✅ Yes | After setup |
+| Customizable | Limited | Fully customizable |
+| **Best For** | Quick personal use | Team/production use |
+
+**💡 Recommendation:** Start with **Option C** (workflow shortcut). It takes 5 minutes and requires no coding!
 
 ---
 

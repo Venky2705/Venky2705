@@ -1,0 +1,46 @@
+{
+  "workflow": {
+    "name": "Neo Shortcut",
+    "description": "Quick shortcut to trigger Claude with @neo alias",
+    "type": "shortcut",
+    "trigger": {
+      "type": "shortcut",
+      "name": "Ask Neo",
+      "description": "Send a message to Claude (Neo) for assistance"
+    },
+    "steps": [
+      {
+        "id": "send_message",
+        "type": "send_message",
+        "config": {
+          "channel_id": "{{trigger.channel_id}}",
+          "message_text": "<@U0A2TRBH7T6> {{user_input.question}}",
+          "thread_ts": "{{trigger.thread_ts}}"
+        },
+        "inputs": {
+          "question": {
+            "type": "text",
+            "label": "What would you like to ask Neo?",
+            "placeholder": "E.g., morning brief, weekly review, help"
+          }
+        }
+      }
+    ]
+  },
+  "instructions": {
+    "setup": [
+      "1. Open Slack and go to your workspace",
+      "2. Click on your workspace name → Tools → Workflow Builder",
+      "3. Click 'Create' → 'Start from scratch'",
+      "4. Name it 'Ask Neo' and select 'Shortcut' as trigger",
+      "5. Add a 'Send a message' step",
+      "6. Configure it to send: <@U0A2TRBH7T6> {{user_input}}",
+      "7. Publish the workflow"
+    ],
+    "usage": [
+      "Use the ⚡ lightning bolt menu in Slack",
+      "Search for 'Ask Neo'",
+      "Type your question and submit"
+    ]
+  }
+}
